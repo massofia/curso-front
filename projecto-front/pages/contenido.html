@@ -4,13 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-with, initial-scale=1.0">
         <title>Todo sobre costura by Sofía</title>
-        <link rel="stylesheet" href="estilos/estilo-head.css">
+        <link rel="stylesheet" href="../estilos/estilo-head.css">
+        <link rel="stylesheet" href="../estilos/estilo-contenido.css">
     </head>
     <body>
         <header>
-            <div>
-                <div>
-                    <nav>
+            <div class="wrapper">
+                
+                <div id="infoHeader">
+                    <div>
+                        <img id="maquina" src="../images/maquina_de_coser.png" alt="">
+                    </div>
+                    <div>
+                        <p id="p-titulo-header">STUDIO COSTURA. MUCHO MÁS QUE COSER UN BOTÓN</p>
+                    </div>
+
+                    <div>
+                        <img id="hilo" src="../images/hilo.png" alt="">
+                    </div>
+            
+                </div>
+                <div >
+                    <nav >
+
                         <ul>
                             <li>
                                 <a href="../index.html">inicio</a>
@@ -18,7 +34,7 @@
                             <li>
                                <a href="contenido.html">contenido</a>
                             </li>
-                            <li>
+                            <li id="li-redirect-contacto">
                                 <a href="contacto.html">contacto</a>
                             </li>
                             
@@ -26,23 +42,42 @@
                     </nav>
                     
                 </div>
-                <div>
-                    <img src="../images/maquina_de_coser.png" alt="logo costura" class="img-costura">
-                    <img src="../images/logo_nombre_blog.png" alt="logo costura" id="logo">
-                    <img src="../images/1.png" alt="logo costura" class="img-costura">
-                    <img src="../images/2.png" alt="logo costura" class="img-costura">
-                </div>
+               
             </div>
         </header>
-        <main>
-            <h2>Esto es un blog</h2>
-            <p>En este espacio aprenderas todo sobre costura: puntos, moldería, telas y más.</p>
-        </main>
-        <footer>
-            <img src="../images/contacto/telefono.png" alt="">
-            <img src="../images/contacto/instagram.png">
-            <p>&copy; 2024 Mi blog de costura. Todos los derechos reservados.</p>
-        </footer>
+        <section>
+           <div>
+            <div><h2 class="texto">TUTORIALES</h2></div>
+            <div>
+                <iframe  src="https://www.youtube.com/embed/zMdmMwuQTbs?si=U6gXnBVwWsppsDGy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
+            </div>
+            <div>
+                <iframe  src="https://www.youtube.com/embed/kqRYLWpnAts?si=FKh-jO_-_rHhVi0d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+           </div>
+           <div style="display:flex; flex-direction: column; align-items: center;">
+            <div><h2 class="texto">PATRONES</h2></div>
+            <div>
+                <img src="../images/patron_vestido.jpeg">
+                <p>DESCARGAR</p>
+            </div>
+            <div>
+                <img src="../images/patron_vestido.jpeg">
+                <p class="texto">COMPRAR</p>
+            </div>
+           </div>
+           <div style="display:flex; flex-direction: column; align-items: center;">
+            <div><h2 class="texto">REVISTAS y MAS</h2></div>
+            <div>
+                <img src="../images/burda.jpeg">
+            </div>
+            
+                <nav>
+                    <a class="texto" src="https://www.burdastyle.es/"> VISITAR </a>
+                </nav>
+            
+           </div>
+        </section>
     </body>
     
 
